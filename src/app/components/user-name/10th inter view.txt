@@ -1,0 +1,35 @@
+//unique() = 1 
+//unique() = 2
+//unique() = 3 
+//unique() = 4 
+//unique() = 5 
+//unique() = 6
+
+let unique= functon(){
+    
+    const i=0;
+    return function(){
+        return ++i;
+    };
+    
+}
+// multiply(2 , 3) return 6;
+//multiply(2)(3) 
+const multiply =function (){
+    let args = array.from(arguments)
+    if(argv.length==0){
+        throw "please put arguments"
+    }
+    else if(args.length===1){
+        return function(b){
+            return arg[0]*b;
+        }
+    }
+    else if(arg.length===2){
+        return a*b;
+    }
+    
+
+}
+
+
